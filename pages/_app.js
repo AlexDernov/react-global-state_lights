@@ -24,6 +24,7 @@ export default function App({ Component, pageProps }) {
   }
 
   /* const countLightsOn = lights.reduce((acc, light) => acc + (light.isOn === true? 1: 0), 0); */
+  /*oder*/
   function counter() {
     let x = 0;
     lights.forEach((light) => (light.isOn ? (x += 1) : x));
